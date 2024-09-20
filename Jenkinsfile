@@ -16,7 +16,7 @@ pipeline {
                 echo 'DB2 Testing Stage...'
             }
         }
-        stage ('Artifact and Repoting Stage') {
+        stage ('Artifact and Reporting Stage') {
             steps {
                 echo 'Artifact Creation and Report Generation Stage...'
             }
