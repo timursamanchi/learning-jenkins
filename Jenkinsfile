@@ -1,5 +1,9 @@
 pipeline {
     agent any
+
+    environment {
+        
+    }
     stages {
         stage ('Requiremnts') {
             steps {
