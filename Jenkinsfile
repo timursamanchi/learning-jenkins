@@ -2,7 +2,9 @@ pipeline {
     agent any
 
     environment {
-        
+
+        BUILD_ID = "1234567890"
+
     }
     stages {
         stage ('Requiremnts') {
